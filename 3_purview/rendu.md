@@ -1,4 +1,4 @@
-# **Configuration databricks**
+# **Configuration de Purview**
 
 
 Creation des collections.<br>
