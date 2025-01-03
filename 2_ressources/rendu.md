@@ -1,59 +1,70 @@
-# **Configuration des composants clés de l infrastructure**
+# **Configuration des composants clés de l'infrastructure**
 
+Bienvenue dans la documentation de configuration des principaux composants de l'infrastructure Azure. Vous trouverez ci-dessous des étapes claires et des captures pour vous guider dans la configuration de chaque composant.
 
-## **Azure blob storage**
+---
 
+## **Azure Blob Storage**
 
-Creation de la ressource `azure blob storage` dans mon groupe de ressource.<br>
-![blob container](images/blob_container.png)
-# 
-  
-Ci dessous la capture de la configuration de l IAM de `azure blob storage`.<br>
-![blob iam](images/blob_iam.png)
-# 
+### Création de la ressource
+La ressource `Azure Blob Storage` a été créée dans le groupe de ressources spécifié.
 
+![Capture d'écran du conteneur Blob Storage](images/blob_container.png)
 
-## **Azure data lake storage gen2**
+### Configuration IAM
+Voici la configuration de l'IAM pour la ressource `Azure Blob Storage` :
 
+![Capture d'écran de l'IAM Blob Storage](images/blob_iam.png)
 
-Creation de la ressource `azure data lake storage gen2` dans mon groupe de ressource.<br>
-![datalake container](images/datalake_container.png)
-# 
-  
-Ci dessous la capture de la configuration de l IAM de `azure data lake storage gen2`.<br>
-![datalake iam](images/datalake_iam.png)
-# 
+---
 
+## **Azure Data Lake Storage Gen2**
 
-## **Azure sql database**
+### Création de la ressource
+La ressource `Azure Data Lake Storage Gen2` a été créée dans le groupe de ressources spécifié.
 
+![Capture d'écran du conteneur Data Lake](images/datalake_container.png)
 
-Creation de la ressource `azure sql database` dans mon groupe de ressource avec le `azure sql server` associé.<br>
-![azure sql database](images/bdd.png)
-# 
-  
-Ci dessous la capture du cout de `azure sql database`.<br>
-![datalake iam](images/bdd_cout.png)
-# 
+### Configuration IAM
+Voici la configuration de l'IAM pour la ressource `Azure Data Lake Storage Gen2` :
 
+![Capture d'écran de l'IAM Data Lake](images/datalake_iam.png)
 
-## **Microsoft purview**
+---
 
+## **Azure SQL Database**
 
-Creation de la ressource `microsoft purview` dans mon groupe de ressource.<br>
-![microsoft purview](images/purview.png)
-# 
+### Création de la ressource
+La ressource `Azure SQL Database` a été créée dans le groupe de ressources spécifié, avec le serveur SQL Azure associé.
 
+![Capture d'écran de la base de données Azure SQL](images/bdd.png)
 
-## **Key vault**
+### Analyse des coûts
+Voici une capture illustrant le coût associé à la ressource `Azure SQL Database` :
 
+![Capture d'écran des coûts Azure SQL](images/bdd_cout.png)
 
-Creation de la ressource `key vault` dans mon groupe de ressource.<br>
-![key vault](images/keyvault.png)
-# 
+---
 
+## **Microsoft Purview**
 
-Ci dessous la capture de la configuration de l IAM du `key vault`.<br>
-![key vault iam](images/keyvault_iam.png)
-# 
+### Création de la ressource
+La ressource `Microsoft Purview` a été créée dans le groupe de ressources spécifié.
 
+![Capture d'écran de Microsoft Purview](images/purview.png)
+
+---
+
+## **Azure Key Vault**
+
+### Création de la ressource
+La ressource `Key Vault` a été créée dans le groupe de ressources spécifié.
+
+![Capture d'écran du Key Vault](images/keyvault.png)
+
+### Configuration IAM
+Voici la configuration de l'IAM pour la ressource `Key Vault` :
+
+![Capture d'écran de l'IAM Key Vault](images/keyvault_iam.png)
+
+---
