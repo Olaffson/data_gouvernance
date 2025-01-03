@@ -1,4 +1,4 @@
-# Registre des Traitements des Données RGPD (pour la bdd)
+# Registre des Traitements des Données RGPD pour une Bdd SQL sur Azure
 
 | **Source de données** | **Nature des données**               | **Finalité du traitement**                      | **Cycle de vie des données**                             | **Risques identifiés**                                             | **Mesures de sécurité mises en œuvre**                                                                                     |
 |------------------------|--------------------------------------|------------------------------------------------|----------------------------------------------------------|-------------------------------------------------------------------|----------------------------------------------------------------------------------------------------------------------------|
